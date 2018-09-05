@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Running Automation Suite">
+
+
+<listeners>
+<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+</listeners>
+<test name="Running Test A">
+    <classes>
+        <class name="com.qa.testcases.MyFirstTest" ></class>
+    </classes>
+</test>
+<test name="Running Test B">
+    <classes>
+        <class name="com.qa.testcases.LoginPageTest" ></class>  
+    </classes>
+</test>
+
+</suite>

@@ -27,6 +27,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/WORK/CETERA/Functional Automation/v1/pom.datadriven/selenium-server-standalone-3.8.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/WORK/CETERA/Functional Automation/v1/pom.datadriven/selenium-server-standalone-3.8.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
