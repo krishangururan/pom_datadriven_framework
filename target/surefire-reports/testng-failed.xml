@@ -8,7 +8,7 @@
     <classes>
       <class name="com.qa.testcases.MyFirstTest">
         <methods>
-          <include name="myFirstTestt" invocation-numbers="0"/>
+          <include name="myFirstTestt" invocation-numbers="0 1"/>
           <include name="mySecondTestt" invocation-numbers="0"/>
           <include name="setUp"/>
           <include name="tearDown"/>

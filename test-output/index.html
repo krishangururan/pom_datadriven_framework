@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Running_Automation_Suite">
-                    <span>D:\WORK\CETERA\Functional Automation\v1\pom.datadriven\src\main\resources\testng.xml</span>
+                    <span>D:\WORK\CETERA\Functional Automation\v1\pom.datadriven\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,  2 skipped,  2 passed</span>
+                    <span class="method-stats">4 methods,  3 skipped,  1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -100,6 +100,11 @@
                       <a href="#" panel-name="suite-Running_Automation_Suite" class="show-methods skipped suite-Running_Automation_Suite"> (show)</a> <!-- show-methods skipped suite-Running_Automation_Suite -->
                     </span>
                     <div class="method-list-content skipped suite-Running_Automation_Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Running_Automation_Suite" title="com.qa.testcases.MyFirstTest" hash-for-method="myFirstTestt({url=https://www.ashurst.com/, testdata=Dubey, runmode=Y})">myFirstTestt({url=https://www.ashurst.com/, testdata=Dubey, runmode=Y})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Running_Automation_Suite" title="com.qa.testcases.MyFirstTest" hash-for-method="myFirstTestt({url=https://www.ashurst.com/, testdata=Vivek, runmode=N})">myFirstTestt({url=https://www.ashurst.com/, testdata=Vivek, runmode=N})</a> <!-- method navigator-link -->
@@ -124,11 +129,6 @@
                         <a href="#" class="method navigator-link" panel-name="suite-Running_Automation_Suite" title="com.qa.testcases.LoginPageTest" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Running_Automation_Suite" title="com.qa.testcases.MyFirstTest" hash-for-method="myFirstTestt({url=https://www.ashurst.com/, testdata=Dubey, runmode=Y})">myFirstTestt({url=https://www.ashurst.com/, testdata=Dubey, runmode=Y})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content passed suite-Running_Automation_Suite -->
                   </li>
                 </ul>
@@ -149,13 +149,27 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="myFirstTestt({url=https://www.ashurst.com/, testdata=Dubey, runmode=Y})">
+                  </a> <!-- myFirstTestt({url=https://www.ashurst.com/, testdata=Dubey, runmode=Y}) -->
+                  <span class="method-name">myFirstTestt</span>
+                  <span class="parameters">({url=https://www.ashurst.com/, testdata=Dubey, runmode=Y})</span>
+                  <div class="stack-trace">org.testng.SkipException: Runmode is NO
+	at com.qa.util.readAndWriteData.runmodeCheck(readAndWriteData.java:71)
+	at com.qa.base.TestBase.initial_test_tasks(TestBase.java:89)
+	at com.qa.testcases.MyFirstTest.myFirstTestt(MyFirstTest.java:17)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="myFirstTestt({url=https://www.ashurst.com/, testdata=Vivek, runmode=N})">
                   </a> <!-- myFirstTestt({url=https://www.ashurst.com/, testdata=Vivek, runmode=N}) -->
                   <span class="method-name">myFirstTestt</span>
                   <span class="parameters">({url=https://www.ashurst.com/, testdata=Vivek, runmode=N})</span>
-                  <div class="stack-trace">org.testng.SkipException: Runmode of the test data is set to NO
-	at com.qa.util.readAndWriteData.runmodeCheck(readAndWriteData.java:75)
-	at com.qa.base.TestBase.initial_test_tasks(TestBase.java:78)
+                  <div class="stack-trace">org.testng.SkipException: Runmode is NO
+	at com.qa.util.readAndWriteData.runmodeCheck(readAndWriteData.java:71)
+	at com.qa.base.TestBase.initial_test_tasks(TestBase.java:89)
 	at com.qa.testcases.MyFirstTest.myFirstTestt(MyFirstTest.java:17)
 ... Removed 25 stack frames
 </div> <!-- stack-trace -->
@@ -169,7 +183,7 @@
                   <span class="parameters">({url=https://www.ashurst.com/, testdata=Avinash, runmode=Y})</span>
                   <div class="stack-trace">org.testng.SkipException: Runmode is NO
 	at com.qa.util.readAndWriteData.runmodeCheck(readAndWriteData.java:71)
-	at com.qa.base.TestBase.initial_test_tasks(TestBase.java:78)
+	at com.qa.base.TestBase.initial_test_tasks(TestBase.java:89)
 	at com.qa.testcases.MyFirstTest.mySecondTestt(MyFirstTest.java:28)
 ... Removed 25 stack frames
 </div> <!-- stack-trace -->
@@ -192,26 +206,10 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Running_Automation_Suite-class-passed -->
-          <div class="suite-Running_Automation_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.qa.testcases.MyFirstTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="myFirstTestt({url=https://www.ashurst.com/, testdata=Dubey, runmode=Y})">
-                  </a> <!-- myFirstTestt({url=https://www.ashurst.com/, testdata=Dubey, runmode=Y}) -->
-                  <span class="method-name">myFirstTestt</span>
-                  <span class="parameters">({url=https://www.ashurst.com/, testdata=Dubey, runmode=Y})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Running_Automation_Suite-class-passed -->
         </div> <!-- panel Running_Automation_Suite -->
         <div panel-name="test-xml-Running_Automation_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\WORK\CETERA\Functional Automation\v1\pom.datadriven\src\main\resources\testng.xml</span>
+            <span class="header-content">D:\WORK\CETERA\Functional Automation\v1\pom.datadriven\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -273,26 +271,26 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'myFirstTestt')
-data.setCell(0, 2, 'com.qa.testcases.MyFirstTest')
-data.setCell(0, 3, 18372);
+data.setCell(0, 1, 'loginPageTitleTest')
+data.setCell(0, 2, 'com.qa.testcases.LoginPageTest')
+data.setCell(0, 3, 3839);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginPageTitleTest')
-data.setCell(1, 2, 'com.qa.testcases.LoginPageTest')
-data.setCell(1, 3, 17666);
+data.setCell(1, 1, 'myFirstTestt')
+data.setCell(1, 2, 'com.qa.testcases.MyFirstTest')
+data.setCell(1, 3, 45);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'myFirstTestt')
 data.setCell(2, 2, 'com.qa.testcases.MyFirstTest')
-data.setCell(2, 3, 78);
+data.setCell(2, 3, 30);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'mySecondTestt')
 data.setCell(3, 2, 'com.qa.testcases.MyFirstTest')
-data.setCell(3, 3, 41);
+data.setCell(3, 3, 27);
 window.suiteTableData['Running_Automation_Suite']= { tableData: data, tableDiv: 'times-div-Running_Automation_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 36 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Running_Automation_Suite">
               </div> <!-- times-div-Running_Automation_Suite -->
             </div> <!-- times-div -->
@@ -319,57 +317,57 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.testcases.MyFirstTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.qa.testcases.MyFirstTest.myFirstTestt(java.util.Hashtable))</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">13743 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">myFirstTestt({url=https://www.ashurst.com/, testdata=Vivek, runmode=N})</span>
-                <span class="method-start">22 ms</span>
+                <span class="method-start">13750 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">102 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.qa.testcases.MyFirstTest.myFirstTestt(java.util.Hashtable))</span>
-                <span class="method-start">103 ms</span>
+                <span class="method-start">13797 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">myFirstTestt({url=https://www.ashurst.com/, testdata=Dubey, runmode=Y})</span>
-                <span class="method-start">103 ms</span>
+                <span class="method-start">13807 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">18478 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.qa.testcases.MyFirstTest.mySecondTestt(java.util.Hashtable))</span>
-                <span class="method-start">20257 ms</span>
+                <span class="method-start">13870 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">mySecondTestt({url=https://www.ashurst.com/, testdata=Avinash, runmode=Y})</span>
-                <span class="method-start">20258 ms</span>
+                <span class="method-start">13877 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
+              <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">20302 ms</span>
-              </div> <!-- configuration-method after -->
+                <span class="method-start">13905 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">15644 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.qa.testcases.LoginPageTest.loginPageTitleTest())</span>
-                <span class="method-start">20342 ms</span>
+                <span class="method-start">29328 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginPageTitleTest</span>
-                <span class="method-start">20343 ms</span>
+                <span class="method-start">29354 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
+              <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">38010 ms</span>
-              </div> <!-- configuration-method after -->
+                <span class="method-start">33194 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -1,0 +1,8 @@
+2018-09-19 16:13:51,727 [main] INFO com.qa.testcases.MyFirstTest - Before navigating to: 'https://www.ashurst.com/'
+2018-09-19 16:13:59,393 [main] INFO com.qa.testcases.MyFirstTest - Navigated to:'https://www.ashurst.com/'
+2018-09-19 16:14:06,341 [main] INFO com.qa.testcases.LoginPageTest - Before navigating to: 'https://www.ashurst.com/'
+2018-09-19 16:14:15,024 [main] INFO com.qa.testcases.LoginPageTest - Navigated to:'https://www.ashurst.com/'
+2018-09-19 16:14:15,130 [main] INFO com.qa.testcases.LoginPageTest----loginPageTitleTest - Trying to find Element By : By.xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a
+2018-09-19 16:14:15,191 [main] INFO com.qa.testcases.LoginPageTest----loginPageTitleTest - Found Element By : By.xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a
+2018-09-19 16:14:15,206 [main] INFO com.qa.testcases.LoginPageTest----loginPageTitleTest - Trying to click on: [[FirefoxDriver: firefox on XP (a0d1d5df-f591-4af6-86d9-ba734a91b0b2)] -> xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a]
+2018-09-19 16:14:18,898 [main] INFO com.qa.testcases.LoginPageTest----loginPageTitleTest - Clicked on: [[FirefoxDriver: firefox on XP (a0d1d5df-f591-4af6-86d9-ba734a91b0b2)] -> xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a]

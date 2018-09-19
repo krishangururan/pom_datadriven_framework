@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="2" failed="0" ignored="0" total="4" passed="2">
+<testng-results skipped="3" failed="0" ignored="0" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Running Automation Suite" duration-ms="65043" started-at="2018-09-05T16:43:14Z" finished-at="2018-09-05T16:44:19Z">
+  <suite name="Running Automation Suite" duration-ms="32753" started-at="2018-09-05T18:20:13Z" finished-at="2018-09-05T18:20:46Z">
     <groups>
     </groups>
-    <test name="Running Test A" duration-ms="35351" started-at="2018-09-05T16:43:14Z" finished-at="2018-09-05T16:43:50Z">
+    <test name="Running Test A" duration-ms="765" started-at="2018-09-05T18:20:13Z" finished-at="2018-09-05T18:20:14Z">
       <class name="com.qa.testcases.MyFirstTest">
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.MyFirstTest@3ba9ad43]" name="setUp" is-config="true" duration-ms="25" started-at="2018-09-05T16:43:15Z" finished-at="2018-09-05T16:43:15Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.MyFirstTest@be64738]" name="setUp" is-config="true" duration-ms="20" started-at="2018-09-05T18:20:13Z" finished-at="2018-09-05T18:20:13Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="myFirstTestt(java.util.Hashtable)[pri:0, instance:com.qa.testcases.MyFirstTest@3ba9ad43]" name="myFirstTestt" duration-ms="120" started-at="2018-09-05T16:43:15Z" data-provider="dataProvider" finished-at="2018-09-05T16:43:15Z">
+        <test-method status="SKIP" signature="myFirstTestt(java.util.Hashtable)[pri:0, instance:com.qa.testcases.MyFirstTest@be64738]" name="myFirstTestt" duration-ms="118" started-at="2018-09-05T18:20:13Z" data-provider="dataProvider" finished-at="2018-09-05T18:20:13Z">
           <params>
             <param index="0">
               <value>
@@ -28,11 +28,11 @@
           </params>
           <exception class="org.testng.SkipException">
             <message>
-              <![CDATA[Runmode of the test data is set to NO]]>
+              <![CDATA[Runmode is NO]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Runmode of the test data is set to NO
-at com.qa.util.readAndWriteData.runmodeCheck(readAndWriteData.java:75)
+              <![CDATA[org.testng.SkipException: Runmode is NO
+at com.qa.util.readAndWriteData.runmodeCheck(readAndWriteData.java:71)
 at com.qa.base.TestBase.initial_test_tasks(TestBase.java:78)
 at com.qa.testcases.MyFirstTest.myFirstTestt(MyFirstTest.java:17)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -70,11 +70,63 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myFirstTestt -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.MyFirstTest@3ba9ad43]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-09-05T16:43:15Z" finished-at="2018-09-05T16:43:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.MyFirstTest@be64738]" name="tearDown" is-config="true" duration-ms="2" started-at="2018-09-05T18:20:13Z" finished-at="2018-09-05T18:20:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.MyFirstTest@3ba9ad43]" name="setUp" is-config="true" duration-ms="0" started-at="2018-09-05T16:43:15Z" finished-at="2018-09-05T16:43:15Z">
+        <test-method status="SKIP" signature="myFirstTestt(java.util.Hashtable)[pri:0, instance:com.qa.testcases.MyFirstTest@be64738]" name="myFirstTestt" duration-ms="80" started-at="2018-09-05T18:20:13Z" data-provider="dataProvider" finished-at="2018-09-05T18:20:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{url=https://www.ashurst.com/, testdata=Dubey, runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode is NO
+at com.qa.util.readAndWriteData.runmodeCheck(readAndWriteData.java:71)
+at com.qa.base.TestBase.initial_test_tasks(TestBase.java:78)
+at com.qa.testcases.MyFirstTest.myFirstTestt(MyFirstTest.java:17)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myFirstTestt -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.MyFirstTest@be64738]" name="setUp" is-config="true" duration-ms="0" started-at="2018-09-05T18:20:13Z" finished-at="2018-09-05T18:20:13Z">
           <params>
             <param index="0">
               <value>
@@ -85,22 +137,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="myFirstTestt(java.util.Hashtable)[pri:0, instance:com.qa.testcases.MyFirstTest@3ba9ad43]" name="myFirstTestt" duration-ms="28036" started-at="2018-09-05T16:43:15Z" data-provider="dataProvider" finished-at="2018-09-05T16:43:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{url=https://www.ashurst.com/, testdata=Dubey, runmode=Y}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- myFirstTestt -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.MyFirstTest@3ba9ad43]" name="tearDown" is-config="true" duration-ms="6713" started-at="2018-09-05T16:43:43Z" finished-at="2018-09-05T16:43:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.MyFirstTest@be64738]" name="tearDown" is-config="true" duration-ms="3" started-at="2018-09-05T18:20:14Z" finished-at="2018-09-05T18:20:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.MyFirstTest@3ba9ad43]" name="setUp" is-config="true" duration-ms="3" started-at="2018-09-05T16:43:50Z" finished-at="2018-09-05T16:43:50Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.MyFirstTest@be64738]" name="setUp" is-config="true" duration-ms="0" started-at="2018-09-05T18:20:14Z" finished-at="2018-09-05T18:20:14Z">
           <params>
             <param index="0">
               <value>
@@ -111,7 +152,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="mySecondTestt(java.util.Hashtable)[pri:0, instance:com.qa.testcases.MyFirstTest@3ba9ad43]" name="mySecondTestt" duration-ms="52" started-at="2018-09-05T16:43:50Z" data-provider="dataProvider" finished-at="2018-09-05T16:43:50Z">
+        <test-method status="SKIP" signature="mySecondTestt(java.util.Hashtable)[pri:0, instance:com.qa.testcases.MyFirstTest@be64738]" name="mySecondTestt" duration-ms="112" started-at="2018-09-05T18:20:14Z" data-provider="dataProvider" finished-at="2018-09-05T18:20:14Z">
           <params>
             <param index="0">
               <value>
@@ -163,19 +204,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySecondTestt -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.MyFirstTest@3ba9ad43]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-09-05T16:43:50Z" finished-at="2018-09-05T16:43:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.MyFirstTest@be64738]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-09-05T18:20:14Z" finished-at="2018-09-05T18:20:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.testcases.MyFirstTest -->
     </test> <!-- Running Test A -->
-    <test name="Running Test B" duration-ms="29572" started-at="2018-09-05T16:43:50Z" finished-at="2018-09-05T16:44:19Z">
+    <test name="Running Test B" duration-ms="31863" started-at="2018-09-05T18:20:14Z" finished-at="2018-09-05T18:20:46Z">
       <class name="com.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.qa.testcases.LoginPageTest@7a69b07]" name="loginPageTitleTest" duration-ms="24719" started-at="2018-09-05T16:43:50Z" finished-at="2018-09-05T16:44:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.LoginPageTest@7a69b07]" name="setUp" is-config="true" duration-ms="0" started-at="2018-09-05T16:43:50Z" finished-at="2018-09-05T16:43:50Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.LoginPageTest@1139b2f3]" name="setUp" is-config="true" duration-ms="2" started-at="2018-09-05T18:20:14Z" finished-at="2018-09-05T18:20:14Z">
           <params>
             <param index="0">
               <value>
@@ -186,7 +223,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@7a69b07]" name="tearDown" is-config="true" duration-ms="4850" started-at="2018-09-05T16:44:14Z" finished-at="2018-09-05T16:44:19Z">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.qa.testcases.LoginPageTest@1139b2f3]" name="loginPageTitleTest" duration-ms="26791" started-at="2018-09-05T18:20:14Z" finished-at="2018-09-05T18:20:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@1139b2f3]" name="tearDown" is-config="true" duration-ms="5065" started-at="2018-09-05T18:20:41Z" finished-at="2018-09-05T18:20:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
