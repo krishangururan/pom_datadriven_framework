@@ -33,10 +33,10 @@ public class TestBase {
 	public static WebEventListener eventlistener;
 	public Xls_Reader excelReader;
 	public readAndWriteData readNwrite=new readAndWriteData();
-	public String TEST;
+	public static String TEST;
 	public ITestResult result;
 	public static Logger logger;
-	static String className;
+	public static String className;
 	public TestBase() {
 
 		try {
@@ -86,18 +86,15 @@ public class TestBase {
 	//********************************Before-After Methods and Initial test Methods ************************//
 
 	public void initial_test_tasks(Hashtable<String,String> data) {
-		readNwrite.runmodeCheck(TEST,data);
+		readNwrite.runmodeCheck(data);
 
 	}
 
-	public void initial_test_tasks() {
-		readNwrite.runmodeCheck(TEST);		
-	}
 
 	@BeforeMethod
 	public void setUp(Method m) {
 		TEST=m.getName().toString();
-		className = this.getClass().getName();
+		className = m.getDeclaringClass().getSimpleName().toString();
 		logger=Logger.getLogger(className+"----"+TEST);
 		PropertyConfigurator.configure(System.getProperty("user.dir")+"\\src\\main\\java\\com\\qa\\config\\log4j.properties");
 

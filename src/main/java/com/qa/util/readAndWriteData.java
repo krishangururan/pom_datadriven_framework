@@ -10,6 +10,8 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.SkipException;
 
+import com.qa.base.TestBase;
+
 
 public class readAndWriteData {
 	
@@ -64,22 +66,20 @@ public class readAndWriteData {
 return false;
 	}
 	
-	
-	public void runmodeCheck(String testcase, Hashtable<String,String> data){
-		
-		if(!isRunnable(testcase))
-    		{throw new SkipException("Runmode is NO");}
-		
-		if(data!=null) {
-		if(!data.get("runmode").equalsIgnoreCase("Y"))
-			throw new SkipException("Runmode of the test data is set to NO");
+
+	public void runmodeCheck( Hashtable<String,String> data){
+		System.out.println(TestBase.className);
+		if(!isRunnable(TestBase.className)) {
+			 throw new SkipException("Runmode of the test data is set to NO for class: "+TestBase.className);
+		}else if(!data.get("runmode").equalsIgnoreCase("Y")) {
+			throw new SkipException("Runmode of the test data is set to NO for class: "+TestBase.className+" --- Test Case: "+TestBase.TEST);
 		}
+     
+     
+
 	}
 	
-	public void runmodeCheck(String testcase) {
-		if(!isRunnable(testcase))
-		{throw new SkipException("Runmode is NO");}
-	}
+
 	
 	
 	
@@ -115,7 +115,6 @@ return false;
 	     for(int rNum=dStartrNum;rNum<dStartrNum+rows;rNum++){
 	    	 table=new Hashtable<String,String>();
 	    	 for(int cNum=0;cNum<cols;cNum++){
-	    		 //data[dataRow][cNum]=xls.getCellData(sheetName, cNum, rNum);
 	    		 String key=xls.getCellData(sheetName, cNum, dStartrNum-1);
 	    		 String value=xls.getCellData(sheetName, cNum, rNum);
 	    		 table.put(key, value);
