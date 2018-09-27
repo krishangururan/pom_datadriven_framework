@@ -109,7 +109,7 @@ public class TestBase {
 
 	@BeforeClass
 	public void startUp() {
-		className = this.getClass().getName();
+		className = this.getClass().getSimpleName().toString();
 		initialization();
 	}
 
