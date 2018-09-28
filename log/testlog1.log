@@ -34,3 +34,19 @@
 2018-09-27 12:05:48,220 [main] INFO MyFirstTest----mySecondTestt - Clicked on: [[FirefoxDriver: firefox on XP (9656cda6-2185-45ac-aa55-71cb11f4b933)] -> xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a]
 2018-09-27 12:05:54,856 [main] INFO LoginPageTest - Before navigating to: 'https://www.ashurst.com/'
 2018-09-27 12:06:09,108 [main] INFO LoginPageTest - Navigated to:'https://www.ashurst.com/'
+2018-09-28 07:44:40,467 [main] INFO LoginPageTest - Before navigating to: 'https://www.ashurst.com/'
+2018-09-28 07:44:55,143 [main] INFO LoginPageTest - Navigated to:'https://www.ashurst.com/'
+2018-09-28 07:45:02,041 [main] INFO MyFirstTest - Before navigating to: 'https://www.ashurst.com/'
+2018-09-28 07:45:15,138 [main] INFO MyFirstTest - Navigated to:'https://www.ashurst.com/'
+2018-09-28 07:45:15,373 [main] INFO MyFirstTest----myFirstTestt - Trying to find Element By : By.xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a
+2018-09-28 07:45:15,446 [main] INFO MyFirstTest----myFirstTestt - Found Element By : By.xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a
+2018-09-28 07:45:15,453 [main] INFO MyFirstTest----myFirstTestt - Trying to click on: [[FirefoxDriver: firefox on XP (267dcc74-e2cf-4b44-814e-b3e58ffb7fb8)] -> xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a]
+2018-09-28 07:45:21,184 [main] INFO MyFirstTest----myFirstTestt - Clicked on: [[FirefoxDriver: firefox on XP (267dcc74-e2cf-4b44-814e-b3e58ffb7fb8)] -> xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a]
+2018-09-28 07:45:21,306 [main] INFO MyFirstTest----mySecondTestt - Trying to find Element By : By.xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a
+2018-09-28 07:45:21,338 [main] INFO MyFirstTest----mySecondTestt - Found Element By : By.xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a
+2018-09-28 07:45:21,339 [main] INFO MyFirstTest----mySecondTestt - Trying to click on: [[FirefoxDriver: firefox on XP (267dcc74-e2cf-4b44-814e-b3e58ffb7fb8)] -> xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a]
+2018-09-28 07:45:26,365 [main] INFO MyFirstTest----mySecondTestt - Clicked on: [[FirefoxDriver: firefox on XP (267dcc74-e2cf-4b44-814e-b3e58ffb7fb8)] -> xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a]
+2018-09-28 07:48:19,528 [main] INFO LoginPageTest - Before navigating to: 'https://www.ashurst.com/'
+2018-09-28 07:48:30,399 [main] INFO LoginPageTest - Navigated to:'https://www.ashurst.com/'
+2018-09-28 07:48:36,700 [main] INFO MyFirstTest - Before navigating to: 'https://www.ashurst.com/'
+2018-09-28 07:48:48,655 [main] INFO MyFirstTest - Navigated to:'https://www.ashurst.com/'
