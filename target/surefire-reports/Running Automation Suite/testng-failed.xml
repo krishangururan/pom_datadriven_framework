@@ -10,10 +10,23 @@
         <methods>
           <include name="myFirstTestt" invocation-numbers="0 1"/>
           <include name="mySecondTestt" invocation-numbers="0"/>
+          <include name="startUp"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.qa.testcases.MyFirstTest -->
     </classes>
   </test> <!-- Running Test A(failed) -->
+  <test thread-count="5" verbose="0" name="Running Test B(failed)">
+    <classes>
+      <class name="com.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="startUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginPageTitleTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Running Test B(failed) -->
 </suite> <!-- Failed suite [Running Automation Suite] -->
