@@ -1,0 +1,64 @@
+2018-09-27 12:01:34,486 - MyFirstTest -INFO - Before navigating to: 'https://www.ashurst.com/'
+2018-09-27 12:01:50,414 - MyFirstTest -INFO - Navigated to:'https://www.ashurst.com/'
+2018-09-27 12:01:50,793 - MyFirstTest----myFirstTestt -INFO - Trying to find Element By : By.xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a
+2018-09-27 12:01:50,868 - MyFirstTest----myFirstTestt -INFO - Found Element By : By.xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a
+2018-09-27 12:01:50,876 - MyFirstTest----myFirstTestt -INFO - Trying to click on: [[FirefoxDriver: firefox on XP (16ba8eb8-db6e-46c6-b8cf-91c942cd544c)] -> xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a]
+2018-09-27 12:01:57,208 - MyFirstTest----myFirstTestt -INFO - Clicked on: [[FirefoxDriver: firefox on XP (16ba8eb8-db6e-46c6-b8cf-91c942cd544c)] -> xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a]
+2018-09-27 12:01:57,363 - MyFirstTest----mySecondTestt -INFO - Trying to find Element By : By.xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a
+2018-09-27 12:01:57,429 - MyFirstTest----mySecondTestt -INFO - Found Element By : By.xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a
+2018-09-27 12:01:57,430 - MyFirstTest----mySecondTestt -INFO - Trying to click on: [[FirefoxDriver: firefox on XP (16ba8eb8-db6e-46c6-b8cf-91c942cd544c)] -> xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a]
+2018-09-27 12:02:03,354 - MyFirstTest----mySecondTestt -INFO - Clicked on: [[FirefoxDriver: firefox on XP (16ba8eb8-db6e-46c6-b8cf-91c942cd544c)] -> xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a]
+2018-09-27 12:02:11,675 - LoginPageTest -INFO - Before navigating to: 'https://www.ashurst.com/'
+2018-09-27 12:02:28,712 - LoginPageTest -INFO - Navigated to:'https://www.ashurst.com/'
+2018-09-27 12:03:13,088 - MyFirstTest -INFO - Before navigating to: 'https://www.ashurst.com/'
+2018-09-27 12:03:26,988 - MyFirstTest -INFO - Navigated to:'https://www.ashurst.com/'
+2018-09-27 12:03:27,241 - MyFirstTest----myFirstTestt -INFO - Trying to find Element By : By.xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a
+2018-09-27 12:03:27,269 - MyFirstTest----myFirstTestt -INFO - Found Element By : By.xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a
+2018-09-27 12:03:27,277 - MyFirstTest----myFirstTestt -INFO - Trying to click on: [[FirefoxDriver: firefox on XP (f46170b4-c2f2-46eb-9171-6625ae195e36)] -> xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a]
+2018-09-27 12:03:32,483 - MyFirstTest----myFirstTestt -INFO - Clicked on: [[FirefoxDriver: firefox on XP (f46170b4-c2f2-46eb-9171-6625ae195e36)] -> xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a]
+2018-09-27 12:03:32,678 - MyFirstTest----mySecondTestt -INFO - Trying to find Element By : By.xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a
+2018-09-27 12:03:32,803 - MyFirstTest----mySecondTestt -INFO - Found Element By : By.xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a
+2018-09-27 12:03:32,806 - MyFirstTest----mySecondTestt -INFO - Trying to click on: [[FirefoxDriver: firefox on XP (f46170b4-c2f2-46eb-9171-6625ae195e36)] -> xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a]
+2018-09-27 12:03:38,201 - MyFirstTest----mySecondTestt -INFO - Clicked on: [[FirefoxDriver: firefox on XP (f46170b4-c2f2-46eb-9171-6625ae195e36)] -> xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a]
+2018-09-27 12:03:44,895 - LoginPageTest -INFO - Before navigating to: 'https://www.ashurst.com/'
+2018-09-27 12:04:02,179 - LoginPageTest -INFO - Navigated to:'https://www.ashurst.com/'
+2018-09-27 12:05:23,378 - MyFirstTest -INFO - Before navigating to: 'https://www.ashurst.com/'
+2018-09-27 12:05:37,108 - MyFirstTest -INFO - Navigated to:'https://www.ashurst.com/'
+2018-09-27 12:05:37,408 - MyFirstTest----myFirstTestt -INFO - Trying to find Element By : By.xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a
+2018-09-27 12:05:37,458 - MyFirstTest----myFirstTestt -INFO - Found Element By : By.xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a
+2018-09-27 12:05:37,483 - MyFirstTest----myFirstTestt -INFO - Trying to click on: [[FirefoxDriver: firefox on XP (9656cda6-2185-45ac-aa55-71cb11f4b933)] -> xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a]
+2018-09-27 12:05:42,977 - MyFirstTest----myFirstTestt -INFO - Clicked on: [[FirefoxDriver: firefox on XP (9656cda6-2185-45ac-aa55-71cb11f4b933)] -> xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a]
+2018-09-27 12:05:43,106 - MyFirstTest----mySecondTestt -INFO - Trying to find Element By : By.xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a
+2018-09-27 12:05:43,212 - MyFirstTest----mySecondTestt -INFO - Found Element By : By.xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a
+2018-09-27 12:05:43,213 - MyFirstTest----mySecondTestt -INFO - Trying to click on: [[FirefoxDriver: firefox on XP (9656cda6-2185-45ac-aa55-71cb11f4b933)] -> xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a]
+2018-09-27 12:05:48,220 - MyFirstTest----mySecondTestt -INFO - Clicked on: [[FirefoxDriver: firefox on XP (9656cda6-2185-45ac-aa55-71cb11f4b933)] -> xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a]
+2018-09-27 12:05:54,856 - LoginPageTest -INFO - Before navigating to: 'https://www.ashurst.com/'
+2018-09-27 12:06:09,108 - LoginPageTest -INFO - Navigated to:'https://www.ashurst.com/'
+2018-09-28 07:44:40,467 - LoginPageTest -INFO - Before navigating to: 'https://www.ashurst.com/'
+2018-09-28 07:44:55,143 - LoginPageTest -INFO - Navigated to:'https://www.ashurst.com/'
+2018-09-28 07:45:02,041 - MyFirstTest -INFO - Before navigating to: 'https://www.ashurst.com/'
+2018-09-28 07:45:15,138 - MyFirstTest -INFO - Navigated to:'https://www.ashurst.com/'
+2018-09-28 07:45:15,373 - MyFirstTest----myFirstTestt -INFO - Trying to find Element By : By.xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a
+2018-09-28 07:45:15,446 - MyFirstTest----myFirstTestt -INFO - Found Element By : By.xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a
+2018-09-28 07:45:15,453 - MyFirstTest----myFirstTestt -INFO - Trying to click on: [[FirefoxDriver: firefox on XP (267dcc74-e2cf-4b44-814e-b3e58ffb7fb8)] -> xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a]
+2018-09-28 07:45:21,184 - MyFirstTest----myFirstTestt -INFO - Clicked on: [[FirefoxDriver: firefox on XP (267dcc74-e2cf-4b44-814e-b3e58ffb7fb8)] -> xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a]
+2018-09-28 07:45:21,306 - MyFirstTest----mySecondTestt -INFO - Trying to find Element By : By.xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a
+2018-09-28 07:45:21,338 - MyFirstTest----mySecondTestt -INFO - Found Element By : By.xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a
+2018-09-28 07:45:21,339 - MyFirstTest----mySecondTestt -INFO - Trying to click on: [[FirefoxDriver: firefox on XP (267dcc74-e2cf-4b44-814e-b3e58ffb7fb8)] -> xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a]
+2018-09-28 07:45:26,365 - MyFirstTest----mySecondTestt -INFO - Clicked on: [[FirefoxDriver: firefox on XP (267dcc74-e2cf-4b44-814e-b3e58ffb7fb8)] -> xpath: html/body/header/section[3]/div/nav[1]/ul/li[2]/a]
+2018-09-28 07:48:19,528 - LoginPageTest -INFO - Before navigating to: 'https://www.ashurst.com/'
+2018-09-28 07:48:30,399 - LoginPageTest -INFO - Navigated to:'https://www.ashurst.com/'
+2018-09-28 07:48:36,700 - MyFirstTest -INFO - Before navigating to: 'https://www.ashurst.com/'
+2018-09-28 07:48:48,655 - MyFirstTest -INFO - Navigated to:'https://www.ashurst.com/'
+2018-09-28 07:57:47,569 - MyFirstTest -INFO - Before navigating to: 'https://www.ashurst.com/'
+2018-09-28 07:57:59,917 - MyFirstTest -INFO - Navigated to:'https://www.ashurst.com/'
+2018-09-28 07:58:08,118 - LoginPageTest -INFO - Before navigating to: 'https://www.ashurst.com/'
+2018-09-28 07:58:22,697 - LoginPageTest -INFO - Navigated to:'https://www.ashurst.com/'
+2018-09-28 08:08:17,461 - LoginPageTest -INFO - Before navigating to: 'https://www.ashurst.com/'
+2018-09-28 08:08:18,532 - LoginPageTest -INFO - Before navigating to: 'https://www.ashurst.com/'
+2018-09-28 08:08:32,390 - LoginPageTest -INFO - Navigated to:'https://www.ashurst.com/'
+2018-09-28 08:08:33,365 - LoginPageTest -INFO - Navigated to:'https://www.ashurst.com/'
+2018-09-28 08:08:41,966 - MyFirstTest -INFO - Before navigating to: 'https://www.ashurst.com/'
+2018-09-28 08:08:42,305 - MyFirstTest -INFO - Before navigating to: 'https://www.ashurst.com/'
+2018-09-28 08:08:59,120 - MyFirstTest -INFO - Navigated to:'https://www.ashurst.com/'
+2018-09-28 08:08:59,602 - MyFirstTest -INFO - Navigated to:'https://www.ashurst.com/'
