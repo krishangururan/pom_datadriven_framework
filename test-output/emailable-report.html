@@ -8,11 +8,29 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">54,903</td><td></td><td></td></tr>
+<tr><th colspan="7">Running Automation Suite</th></tr>
+<tr><td><a href="#t0">Running Test A</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num">31,878</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Running Test B</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">29,390</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">1</th><th class="num attn">3</th><th class="num">0</th><th class="num">61,268</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.qa.util.runner</td><td><a href="#m0">test_runner</a></td><td rowspan="1">1538102289123</td><td rowspan="1">54865</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Running Automation Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Running Test A &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">com.qa.testcases.MyFirstTest</td><td><a href="#m0">myFirstTestt</a></td><td rowspan="2">1539762006200</td><td rowspan="2">34</td></tr><tr class="skippedeven"><td><a href="#m1">myFirstTestt</a></td></tr><tr class="skippedeven"><td><a href="#m2">mySecondTestt</a></td><td rowspan="1">1539762006275</td><td rowspan="1">47</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Running Test B &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.qa.testcases.LoginPageTest</td><td><a href="#m3">loginPageTitleTest</a></td><td rowspan="1">1539762035208</td><td rowspan="1">534</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.qa.util.runner#test_runner</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Running Test A</h2><h3 id="m0">com.qa.testcases.MyFirstTest#myFirstTestt</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{url=https://www.ashurst.com/, testdata=Dubey, runmode=Y}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Runmode of the test data is set to NO for class: MyFirstTest
+	at com.qa.util.readAndWriteData.runmodeCheck(readAndWriteData.java:73)
+	at com.qa.base.TestBase.initial_test_tasks(TestBase.java:97)
+	at com.qa.testcases.MyFirstTest.myFirstTestt(MyFirstTest.java:17)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qa.testcases.MyFirstTest#myFirstTestt</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{url=https://www.ashurst.com/, testdata=Vivek, runmode=N}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Runmode of the test data is set to NO for class: MyFirstTest
+	at com.qa.util.readAndWriteData.runmodeCheck(readAndWriteData.java:73)
+	at com.qa.base.TestBase.initial_test_tasks(TestBase.java:97)
+	at com.qa.testcases.MyFirstTest.myFirstTestt(MyFirstTest.java:17)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.qa.testcases.MyFirstTest#mySecondTestt</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{url=https://www.ashurst.com/, testdata=Avinash, runmode=Y}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Runmode of the test data is set to NO for class: MyFirstTest
+	at com.qa.util.readAndWriteData.runmodeCheck(readAndWriteData.java:73)
+	at com.qa.base.TestBase.initial_test_tasks(TestBase.java:97)
+	at com.qa.testcases.MyFirstTest.mySecondTestt(MyFirstTest.java:28)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Running Test B</h2><h3 id="m3">com.qa.testcases.LoginPageTest#loginPageTitleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{runmode=Y}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

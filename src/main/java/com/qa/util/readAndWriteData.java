@@ -86,7 +86,7 @@ return false;
 	
 	public static Object[][] getData(Xls_Reader xls, String testName){
 		
-		sheetName="data";
+		
 		sheetName=TestBase.className.toString().trim();
 	        String testCaseName=testName;
 	        int testStartRowNum=1;

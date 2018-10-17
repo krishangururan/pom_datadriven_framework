@@ -29,6 +29,7 @@ import com.qa.util.readAndWriteData;
 public class TestBase {
 	public static WebDriver driver;
 	public static Properties prop;
+	public static Properties config;
 	public static EventFiringWebDriver edriver;
 	public static WebEventListener eventlistener;
 	public Xls_Reader excelReader;
@@ -40,11 +41,18 @@ public class TestBase {
 	public TestBase() {
 
 		try {
+			if(config==null) {
+			config=new Properties();
+			FileInputStream fs=new FileInputStream(System.getProperty("user.dir")+"/src/main/java/com/qa/config/config.properties");
+			config.load(fs);
 
 			prop=new Properties();
-			FileInputStream ip=new FileInputStream(System.getProperty("user.dir")+"/src/main/java/com/qa/config/config.properties");
+			FileInputStream ip=new FileInputStream(System.getProperty("user.dir")+"/src/main/java/com/qa/config/"+config.getProperty("Environment")+"Env.properties");
 			prop.load(ip);
-		}catch(FileNotFoundException e) {
+			System.out.println(prop.getProperty("env"));
+			
+			
+		}}catch(FileNotFoundException e) {
 			e.printStackTrace();
 		}catch(IOException e) {
 			e.printStackTrace();
@@ -96,7 +104,7 @@ public class TestBase {
 		TEST=m.getName().toString();
 		className = m.getDeclaringClass().getSimpleName().toString();
 		logger=Logger.getLogger(className+"----"+TEST);
-		PropertyConfigurator.configure(System.getProperty("user.dir")+"\\src\\main\\java\\com\\qa\\config\\log4j.properties");
+		PropertyConfigurator.configure(System.getProperty("user.dir")+"/src/main/java/com/qa/config/log4j.properties");
 
 	}
 
